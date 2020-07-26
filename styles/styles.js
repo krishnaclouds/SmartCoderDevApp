@@ -5,7 +5,9 @@ const { width, height } = Dimensions.get('screen');
 
 export const styles = StyleSheet.create({
     header : {
-        flexDirection : 'row'
+        flexDirection : 'row',
+        justifyContent : 'center',
+        alignItems : 'center'
     },
     headerText : {
         paddingTop : 30,
@@ -22,7 +24,7 @@ export const styles = StyleSheet.create({
         backgroundColor : "rgba(200,200,200,0.5)",
         width : width / 1.1,
         padding : 9 ,
-        marginTop : 8,
+        marginTop : 5,
         borderRadius : 20,
         shadowColor : "#000",
         shadowOffset : {
@@ -56,10 +58,12 @@ export const styles = StyleSheet.create({
     imageButton: {
         width : '100%',
         height : '30%',
-        backgroundColor : 'rgba(0,0,0,0.5)',
+        backgroundColor : 'rgba(0,0,0,0.3)',
         position : 'absolute',
         bottom : 0,
-        left : 0
+        left : 0,
+        borderBottomLeftRadius : 20,
+        borderBottomRightRadius : 20 
     },
     title : {
         fontSize : 18,
