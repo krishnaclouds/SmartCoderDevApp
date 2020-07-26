@@ -15,7 +15,21 @@ The basic Idea is to create an App which  summarizes top news, collects and give
 
 ### Road Map
 
-1. Initial Release              - [:heavy_check_mark:]
-2. Adding differnt Domains      - [ ]
-3. onverting to Native Apps     - [ ]
-4. Inviting Contributions       - [ ]
+<table>
+<tr>
+<td>1. Initial Release<td>
+<td>:heavy_check_mark:<td>
+</tr>
+<tr>
+<td>2. Adding differnt Domains<td>
+<td><td>
+</tr>
+<tr>
+<td>3. onverting to Native Apps<td>
+<td><td>
+</tr>
+<tr>
+<td>4. Inviting Contributions<td>
+<td><td>
+</tr>
+</table>
