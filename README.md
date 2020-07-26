@@ -15,7 +15,7 @@ The basic Idea is to create an App which  summarizes top news, collects and give
 
 ### Road Map
 
-1. Initial Release              - []
-2. Adding differnt Domains      - []
-3. onverting to Native Apps     - []
-4. Inviting Contributions       - []
+1. Initial Release              - [ ]
+2. Adding differnt Domains      - [ ]
+3. onverting to Native Apps     - [ ]
+4. Inviting Contributions       - [ ]
