@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Image } from 'react-native';
 import { styles } from '../styles/styles';
 import Input from '../components/input';
+import ImageButton from '../components/imageButton';
 
 export default class MainScreen extends Component {
   render() {
@@ -30,23 +31,39 @@ export default class MainScreen extends Component {
               style={styles.image}
               source={require("../assets/1.jpg")}
             ></Image>
+            <ImageButton
+              title="The Boat"
+              description="The Trio in Sunset"
+            />
           </View>
           <View style={styles.imageView}>
             <Image style={styles.image}
               source={require("../assets/2.jpg")}
-            ></Image>
+            />
+            <ImageButton
+              title="The Beach"
+              description="The rays of the beach stones"
+            />
           </View>
         </View>
         <View style={styles.imageContainer}>
           <View style={styles.imageView}>
             <Image style={styles.image}
               source={require("../assets/3.jpg")}
-            ></Image>
+            />
+            <ImageButton
+              title="Trees"
+              description="Waiting on the long way"
+            />
           </View>
           <View style={styles.imageView}>
             <Image style={styles.image}
               source={require("../assets/4.jpg")}
-            ></Image>
+            />
+            <ImageButton
+              title="The Water"
+              description="Floating on the waves"
+            />
           </View>
         </View>
       </View>

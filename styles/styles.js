@@ -52,5 +52,27 @@ export const styles = StyleSheet.create({
         width : "100%",
         height : "100%",
         borderRadius : 20
-    }
+    },
+    imageButton: {
+        width : '100%',
+        height : '30%',
+        backgroundColor : 'rgba(0,0,0,0.5)',
+        position : 'absolute',
+        bottom : 0,
+        left : 0
+    },
+    title : {
+        fontSize : 18,
+        fontWeight : 'bold',
+        textAlign : 'center',
+        color : 'white'
+    },
+
+    description : {
+        fontSize : 12,
+        textAlign : 'center',
+        color : 'white',
+        marginVertical : 3
+    },
+
 })
